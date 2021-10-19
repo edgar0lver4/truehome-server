@@ -19,7 +19,8 @@ export const getAirports = (req:Request,res:Response,next:NextFunction)=>{
             .catch((error)=>{
                 res.status(403);
                 res.json({
-                    message:"Error al conectar con el servicio"
+                    message:"Error al conectar con el servicio",
+                    error:error
                 });
                 console.log(error);
             });
