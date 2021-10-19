@@ -1,0 +1,27 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "Backend for truehome",
+  "main": "index.js",
+  "dependencies": {
+    "@types/jsonwebtoken": "^8.5.5",
+    "@types/node-fetch": "^3.0.3",
+    "axios": "^0.23.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "node-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13"
+  },
+  "scripts": {
+    "test": "tsc && node ./dist/index.js",
+    "build":"tsc",
+    "start":"node ./dist/index.js"
+  },
+  "author": "Edgar Olvera",
+  "license": "ISC"
+}
