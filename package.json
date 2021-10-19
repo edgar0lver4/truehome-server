@@ -19,7 +19,7 @@
   },
   "scripts": {
     "test": "tsc && node ./dist/index.js",
-    "build":"tsc",
+    "build":"echo ok",
     "start":"node ./dist/index.js"
   },
   "author": "Edgar Olvera",
